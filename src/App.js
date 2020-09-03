@@ -22,6 +22,11 @@ class App extends Component {
       }
     ]
   }
+
+  markComplete = () => {
+    console.log('From app.js')
+  }
+
   render() {
     
     return (
